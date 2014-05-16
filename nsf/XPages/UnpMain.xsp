@@ -33,5 +33,9 @@ try{
 }*/
 return out;}]]></unp:this.disabledbadges>
 	</unp:unpWorkspace>
-	<unp:unpFooter synctype="alldbs"></unp:unpFooter>
+	<unp:unpFooter
+		synctype="alldbs"
+		newDocTarget="UnpDemoFormEditor.xsp"
+		newDocLoadType="full">
+	</unp:unpFooter>
 </xp:view>

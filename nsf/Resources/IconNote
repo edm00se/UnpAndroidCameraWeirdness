@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='9.0'
- maintenanceversion='1.0' replicaid='80257B470037E1BA'>
-<noteinfo noteid='11a' unid='0C17FBCBEB39971380257B470037E1BD' sequence='29'>
-<created><datetime dst='true'>20130408T111022,69+01</datetime></created>
-<modified><datetime>20140217T120125,84+00</datetime></modified>
-<revised><datetime>20140217T120125,83+00</datetime></revised>
-<lastaccessed><datetime>20140217T120125,84+00</datetime></lastaccessed>
-<addedtofile><datetime dst='true'>20130408T111022,71+01</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Matt White/O=Exhilarate</name></updatedby>
-<wassignedby><name>CN=Matt White/O=Exhilarate</name></wassignedby>
+ maintenanceversion='1.0' replicaid='86257CDA004FEF7A'>
+<noteinfo noteid='11e' unid='02EAA241C084505686257CDA004FEF7E' sequence='8'>
+<created><datetime dst='true'>20140516T093306,54-05</datetime></created>
+<modified><datetime dst='true'>20140516T093344,06-05</datetime></modified>
+<revised><datetime dst='true'>20140516T093344,05-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20140516T093344,05-05</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20140516T093306,56-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Eric McCormick/O=Boldt</name></updatedby>
+<wassignedby><name>CN=Eric McCormick/O=Boldt</name></wassignedby>
 <item name='IconBitmap' summary='true'>
 <rawitemdata type='6'>
 AiAgAQAA///////wD///gAH//gAAf/wAAD/4AAAf8AAAD+AAAAfgAAAHwAAAA8AAAAPAAAADgAAA
@@ -26,6 +26,6 @@ AAAAUEECICABAAD/////+A4DgA==
 </rawitemdata></item>
 <item name='$Daos'><text>0</text></item>
 <item name='$TITLE'><text>Unplugged Controls</text></item>
-<item name='$Flags'><text>J</text></item>
-<item name='$FlagsNoRefresh'><text>rv</text></item></note>
+<item name='$FlagsNoRefresh'><text>rv</text></item>
+<item name='$Flags'><text>J7</text></item></note>
 

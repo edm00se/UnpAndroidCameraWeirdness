@@ -121,6 +121,37 @@
 									value="#{document1.Description}">
 								</xp:inputTextarea>
 							</li>
+							<li>
+						    	<xp:label value="Image" id="imageLabel1" for="imageFileUpload1"></xp:label>
+						    	<xp:fileUpload id="imageFileUpload1">
+						    		<xp:this.attrs>
+						    			<xp:attr
+						    				name="capture"
+						    				value="true">
+						    			</xp:attr>
+						    			<xp:attr
+						    				name="accept"
+						    				value="image/*;capture=camera">
+						    			</xp:attr>
+						    		</xp:this.attrs>
+						    	</xp:fileUpload>
+						    	<xp:panel
+						    		style="height:160px;width:100%;background-color:white"
+						    		disableOutputTag="true"
+						    		rendered="${javascript:!document1.getAttachmentList('Image').isEmpty()}">
+						    
+						    		<xp:repeat
+						    			id="repeat1" rows="30"
+						    			value="${javascript:document1.getAttachmentList('Image')}"
+						    			var="attList" indexVar="attIndex">
+						    			<xp:image
+						    				url="#{javascript:'0/'+document1.getDocument().getUniversalID()+'/$File/'+document1.getAttachmentList('Image').get(attIndex).getName()}"
+						    				id="attImage"
+						    				style="display:block;margin-left:auto;margin-right:auto;max-height:160px;max-width:300px;">
+						    			</xp:image>
+						    		</xp:repeat>
+						    	</xp:panel>
+						    </li>
 						</ul>
 						<input type="button" onclick="openDialog('dialogPopup')"
 							value="Open Demo Dialog" />
