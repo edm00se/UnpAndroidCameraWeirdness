@@ -14,6 +14,8 @@ The form (attached to the "new" button) is the UnpDemoFormEditor XPage, modified
 
 Immediately below the Details xp:inputTextarea, there is another list item, containing a label and xp:fileUpload. This control follows the information [outlined in this YouTube video](https://www.youtube.com/watch?v=dITMq2eDzcE), which is regarded as current information [per this comment by Rich Sharpe](https://github.com/unplugged/unplugged-controls/issues/346#issuecomment-32199333). The XSP for that entire list item is below.
 
+<!-- language: lang-xml -->
+
     <li>
     	<xp:label value="Image" id="imageLabel1" for="imageFileUpload1"></xp:label>
     	<xp:fileUpload id="imageFileUpload1">
