@@ -1,3 +1,10 @@
+[Update]
+
+# Not Current
+This repository's purpose is complete, as it was to relate to issue [unplugged/unplugged-controls#405](https://github.com/unplugged/unplugged-controls/issues/405) for demonstrative purposes. The repo is being kept as a reference, but otherwise is not being maintained or updated.
+
+[/Update]
+
 UnPlugged-Controls Android Camera Weirdness
 =====================
 
